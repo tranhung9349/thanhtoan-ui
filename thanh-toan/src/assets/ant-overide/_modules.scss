@@ -123,10 +123,9 @@
   }
   .ant-input-lg {
     flex: 1;
-
-    &:first-child {
-      border-right: none;
-    }
+  }
+  .ant-input-lg:first-child {
+    border-right: none;
   }
 }
 
