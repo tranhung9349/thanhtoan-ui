@@ -83,18 +83,18 @@
 
   &::before {
     content: "";
-    border-left: 4px solid #FFCA29;
+    border-left: 4px solid #ffca29;
     margin-right: 6px;
   }
 }
 
-
 ._more-action {
   span {
     cursor: pointer;
+    color: #5A5A5A;
   }
   span:hover {
-    color: $primary-text
+    color: $primary-text;
   }
 }
 
@@ -116,7 +116,6 @@
     height: 12px;
   }
 }
-
 
 ._user-actions {
   transition: all 0.5s ease;

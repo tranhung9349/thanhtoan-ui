@@ -153,6 +153,35 @@ function CommonTable() {
         );
       },
     },
+
+    {
+      title: "",
+      key: "5",
+      fixed: "right",
+      render: () => (
+        <div>
+          <Popover
+            placement="bottom"
+            arrow={false}
+            title={""}
+            content={
+              <div className="flex flex-col gap-3 _more-action px-3">
+                <span><i class="fa-regular fa-check mr-2"></i>Duyệt </span>
+                <span><i class="fa-regular fa-arrow-turn-down-right mr-2"></i>Chuyển</span>
+                <span><i class="fa-regular fa-file-lines mr-2"></i>Chuyển nội bộ KT</span>
+                <span><i class="fa-regular fa-rotate-left mr-2"></i>Trả lại</span>
+                <span><i class="fa-regular fa-copy mr-2"></i>Sao chép</span>
+                <span><i class="fa-regular fa-trash mr-2"></i>Xoá</span>
+                <span><i class="fa-regular fa-square-info mr-2"></i>Chi tiết</span>
+              </div>
+            }
+            trigger="click"
+          >
+            <span className="cursor-pointer">...</span>
+          </Popover>
+        </div>
+      ),
+    },
   ];
 
   return (

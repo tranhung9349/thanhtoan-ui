@@ -34,6 +34,7 @@ function MainLayout({ children }) {
           </div>
           <div className="absolute bottom-4 left-[26px] flex items-center gap-3 justify-between w-full pr-[48px] ">
             <Avatar
+            className="_user-avt"
               src={
                 "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
               }
