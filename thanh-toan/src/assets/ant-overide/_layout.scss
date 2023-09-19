@@ -1,0 +1,117 @@
+.ant-layout-has-sider {
+  .ant-layout-sider {
+    background: $primary-bg;
+
+    &:not(.ant-layout-sider-collapsed) {
+      width: 300px !important;
+      max-width: 300px !important;
+      min-width: 300px !important;
+    }
+
+    .ant-layout-sider-trigger {
+      background: $primary-bg;
+      top: 0;
+      span[role="img"] {
+        color: transparent;
+      }
+    }
+  }
+
+  .ant-layout-content {
+    background: $primary-bg;
+    padding: 12px;
+    height: calc(100vh - 28px);
+
+    section {
+      height: 100%;
+      background-color: #fff;
+      border-radius: 12px;
+      overflow: scroll;
+    }
+  }
+}
+
+.ant-menu-light {
+  background: transparent;
+  border-inline-end: transparent !important;
+  width: inherit;
+
+  &:not(.ant-menu-inline-collapsed) {
+    margin-left: -55px !important ;
+  }
+
+  .ant-menu-item {
+    color: #fff;
+
+    &.ant-menu-item-active {
+      background: #fff !important;
+      color: $primary-bg !important;
+    }
+  }
+
+  .ant-menu-item-disabled {
+    color: #fff !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: default;
+  }
+
+  .ant-menu-item-selected {
+    background: #fff;
+    color: $primary-bg;
+  }
+}
+
+.ant-menu-inline-collapsed {
+  .ant-menu-item-disabled {
+    pointer-events: none;
+  }
+
+  .ant-menu-item:not(.ant-menu-item-disabled) {
+    display: none;
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+._sector-title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: capitalize;
+
+  &::before {
+    content: "";
+    border-left: 4px solid #FFCA29;
+    margin-right: 6px;
+  }
+}
+
+
+._more-action {
+  span {
+    cursor: pointer;
+  }
+  span:hover {
+    color: $primary-text
+  }
+}
+
+._notification-btn {
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  line-height: 36px;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  padding: 0 12px;
+  cursor: pointer;
+
+  .ant-badge-dot {
+    left: 8px;
+    top: -2px;
+    width: 12px;
+    height: 12px;
+  }
+}
