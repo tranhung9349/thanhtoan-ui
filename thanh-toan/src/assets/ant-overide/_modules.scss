@@ -242,6 +242,9 @@
 }
 
 .ant-table {
+  .ant-table-thead>tr>td {
+    background: #f1f1f1;
+  }
   .ant-table-content {
     .ant-table-thead {
       tr > th {
@@ -250,6 +253,7 @@
         font-size: 12px;
         color: $primary-text;
         text-transform: capitalize;
+        background: #f1f1f1;
 
         &::before {
           display: none;
@@ -264,6 +268,9 @@
     .ant-table-tbody {
       > tr.ant-table-row:hover ._row-action {
         opacity: 1;
+      }
+      > tr.ant-table-row:nth-child(even):not(:has(.ant-table-row-expand-icon-cell)) td {
+        background: #f0f0f0;
       }
     }
   }
