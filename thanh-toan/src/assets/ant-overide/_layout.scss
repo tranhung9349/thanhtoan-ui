@@ -73,6 +73,18 @@
     // display: none;
     // transition: all 0.5s ease-in-out;
     text-overflow: clip;
+    i {
+      // font-size: 14px;
+      display: flex;
+      align-self: center;
+      justify-items: center;
+      &::before {
+        align-items: center;
+        align-self: center;
+        display: inline-flex;
+        padding-left: 6px;
+      }
+    }
   }
 }
 

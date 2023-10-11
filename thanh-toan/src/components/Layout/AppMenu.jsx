@@ -16,17 +16,17 @@ const MENU_ITEMS = [
   },
   {
     key: 'contracts',
-    icon:  <i className="fa-regular fa-file-contract text-base font-semibold"></i>,
+    icon:  <i className="fa-regular fa-file-signature text-base font-semibold"></i>,
     label: 'Quản lý hợp đồng',
   },
   {
     key: 'reports',
-    icon:  <i className="fa-regular fa-file text-base font-semibold"></i>,
+    icon:  <i className="fa-regular fa-files text-base font-semibold"></i>,
     label: 'Quản lý tờ trình',
   },
   {
     key: 'flows-config',
-    icon:  <i className="fa-regular fa-gears text-base font-semibold"></i>,
+    icon:  <i className="fa-regular fa-gear text-base font-semibold"></i>,
     label: 'Cấu hình luồng nghiệp vụ',
   },
 ]
