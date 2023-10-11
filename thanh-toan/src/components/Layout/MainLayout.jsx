@@ -30,6 +30,9 @@ function MainLayout({ children }) {
                 <i class="fa-solid fa-bars"></i>
               </span>
             </div>
+            <div className="mt-[24px]">
+
+            </div>
             <AppMenu />
           </div>
           <div className="absolute bottom-4 left-[26px] flex items-center gap-3 justify-between w-full pr-[48px] ">

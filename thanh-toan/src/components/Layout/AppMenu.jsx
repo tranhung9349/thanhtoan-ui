@@ -7,26 +7,26 @@ const MENU_ITEMS = [
     key: 'payment-group',
     icon: <i className="fa-regular fa-computer text-base font-semibold"></i>,
     label: 'Thanh toán',
-    disabled: true
+    // disabled: true
   },
   {
     key: 'main',
-    icon: <></>,
+    icon: <i className="fa-regular fa-house text-base font-semibold"></i>,
     label: 'Trang chủ',
   },
   {
     key: 'contracts',
-    icon:  <></>,
+    icon:  <i className="fa-regular fa-file-contract text-base font-semibold"></i>,
     label: 'Quản lý hợp đồng',
   },
   {
     key: 'reports',
-    icon:  <></>,
+    icon:  <i className="fa-regular fa-file text-base font-semibold"></i>,
     label: 'Quản lý tờ trình',
   },
   {
     key: 'flows-config',
-    icon:  <></>,
+    icon:  <i className="fa-regular fa-gears text-base font-semibold"></i>,
     label: 'Cấu hình luồng nghiệp vụ',
   },
 ]
